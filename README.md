@@ -1,8 +1,8 @@
-#GUI for Scientific Database
+# GUI for Scientific Database
 This is a simple GUI made for a Scientific Database. The GUI is built using CustomTkinter and Tkinter. At the backend, SQLite is used for its serverless capability. The project requires further development. 
 You’re free to do anything with this code. Further development will be done over time.
 
-##Usage
+## Usage
 To use, first Execute the DBcreate.py file. there about 5 tables in this file. to create additional tables use `c.execute('''<SQL Query>''')`.
 ##Note: Adding a table should be followed by modifications to th `DBgui.py` file. Since radio buttons are used to access the tables, any new table should have a corresponding radio button added, and the logic for it should be coded.
 A SQLite database is created when the file is executed.
