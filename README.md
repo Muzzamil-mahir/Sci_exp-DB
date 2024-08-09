@@ -4,7 +4,7 @@ You’re free to do anything with this code. Further development will be done ov
 
 ## Usage
 To use, first Execute the DBcreate.py file. there about 5 tables in this file. to create additional tables use `c.execute('''<SQL Query>''')`.
-A SQLite database is created when the file is executed.
+A SQLite database is created when the file is executed.\n
 **Note:** Adding a table should be followed by modifications to th `DBgui.py` file. Since radio buttons are used to access the tables, any new table should have a corresponding radio button added, and the logic for it should be coded.
 
 `Install CustomTkinter`
